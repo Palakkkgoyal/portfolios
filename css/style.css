@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdf6ec;
+}
+
+h1 {
+    color: #f4845f;
+}
+
+a {
+    color: #c9956b;
+    margin-right: 10px;
+}
+
+button {
+    background: #f4845f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+nav {
+    background: #f4845f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-section img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.profile-section img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center bottom;
+    /* neeche se zyada dikhega */
+    border-radius: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #f4845f;
+    margin-top: 40px;
+}
+
+a:hover {
+    color: #f4845f;
+    text-decoration: underline;
+}
+
+button:hover {
+    background: #c9956b;
+    transform: scale(1.05);
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
